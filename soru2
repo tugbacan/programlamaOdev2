@@ -1,0 +1,19 @@
+calısılanSure=int(input("2016 çalışılan süreyi giriniz:"))
+toplamMusteri=int(input("2016' da toplam müşteri sayısını giriniz:"))
+calısılanSure2=int(input("2017 çalışılan süreyi giriniz:"))
+toplamMusteri2=int(input("2017 toplam müşteri sayısını giriniz:"))
+
+
+def calısmaSuresi2016 (calısılanSure, toplamMusteri):
+    global calısmaSuresi
+    calısmaSuresi=(calısılanSure/toplamMusteri)
+    return calısmaSuresi
+def calısmaSuresi2017 (calısılanSure2,toplamMusteri2):
+    global calısmaSuresi2
+    calısmaSuresi2=(calısılanSure2/toplamMusteri2)
+    return calısmaSuresi2
+def farkHesapla (calısmaSuresi,calısmaSuresi2):
+    Fark=calısmaSuresi-calısmaSuresi2
+  
+
+
